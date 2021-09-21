@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .dots__dot {
+    @apply border-none bg-pink-500 hover:bg-pink-700 opacity-70 h-4 w-4 rounded-full transition-all shadow-sm inline-block mr-3;
+  }
+  .dots__dot--active {
+    @apply opacity-100 bg-blue-700;
+  }
+}
